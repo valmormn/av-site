@@ -1,0 +1,19 @@
+.wrapper {
+  margin-top: 1rem;
+  // width: 400px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  // background-color: red !important;
+
+  // * {
+  //   padding: 1rem;
+  //   width: 260px;
+  // }
+
+  button, input {
+    width: 260px;
+    margin-top: 1rem;
+  }
+}

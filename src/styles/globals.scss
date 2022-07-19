@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'typography';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  // perspective: 1000px; // using this breaks the fixed positioning
+}
+
+.btn {
+  // margin: 1rem;
+}
