@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import Hero from '$components/Hero'
 
 
 
@@ -21,7 +22,9 @@ const Home: NextPage = () => {
       <Head>
         <title>AV Customize</title>
       </Head>
-      <h1>Árvore da Vida Confecção & Estamparia</h1><ul>
+      {/* <h1>Árvore da Vida Confecção & Estamparia</h1> */}
+      <Hero></Hero>
+      <ul>
         <li>Escolha o item desejado</li>
         <li>Escolha a técnica de customização</li>
         <li>Adicone sua arte</li>
