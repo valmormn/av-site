@@ -14,7 +14,7 @@ const Explorer = ({ items, section }: Props) => {
       {/* <div>{args.filter && <h2>Filter Data by Categories</h2>}</div> */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 place-content-center place-items-center m-8">
         {items.data.map((item: any, index: number) => (
-          <Card data={item} args={''} key={index} />
+          <Card data={item} key={index} />
         ))}
       </div>
     </>

@@ -5,6 +5,9 @@ import Document, {
   NextScript,
   DocumentContext
 } from 'next/document'
+
+//import Head from 'next/head'
+
 // import { ServerStyleSheet } from 'styled-components'
 
 //let dataTheme: string
