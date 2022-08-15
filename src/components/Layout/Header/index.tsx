@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 import {
   FaBars,
@@ -8,7 +8,7 @@ import {
   // Fatshirt,
   FaNewspaper,
   FaUserAlt
-} from "react-icons/fa";
+} from 'react-icons/fa'
 
 import style from './header.module.scss'
 // import './header.module.scss'
@@ -19,14 +19,14 @@ import style from './header.module.scss'
 // }
 //
 
-const xtyle = `navbar mb-2 shadow-lg bg-neutral text-neutral-content flex justify-between`;
+const xtyle = `navbar mb-2 shadow-lg bg-neutral text-neutral-content flex justify-between z-50`
 
 const Header = () => {
   // const router = useRouter()
   //
   return (
     <>
-      <header className={"fixed navbar bg-primary shadow"}>
+      <header className={'fixed navbar bg-primary shadow z-50'}>
         {/* <div className="flex-none">
           <Link href="/">
             <button className="btn btn-square btn-ghost">
@@ -51,7 +51,7 @@ const Header = () => {
         </div>
       </header>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

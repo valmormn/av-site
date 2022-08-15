@@ -21,11 +21,11 @@ const whatsappLink = `https://wa.me/5521999324792?text=${urlencodedtext}`
 const Whatsapp = () => {
   return (
     <>
-      <button className={classyStyle}>
-        <Link href={whatsappLink} target="_blank">
+      <Link href={whatsappLink} target="_blank">
+        <button className={classyStyle}>
           <IoLogoWhatsapp />
-        </Link>
-      </button>
+        </button>
+      </Link>
     </>
   )
 }

@@ -4,6 +4,13 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class', // media or 'class'
   theme: {
+    screens: {
+      sm: '480px',
+      md: '640px',
+      lg: '900px',
+      xl: '1280px',
+      '2xl': '1536px'
+    },
     extend: {
       typography: {}
     }
@@ -14,10 +21,10 @@ module.exports = {
   plugins: [
     plugin(function ({ addBase, theme }) {
       addBase({
-        h1: { fontSize: theme('fontSize.4xl') },
-        h2: { fontSize: theme('fontSize.3xl') },
-        h3: { fontSize: theme('fontSize.2xl') },
-        h4: { fontSize: theme('fontSize.xl') }
+        h1: { fontSize: theme('fontSize.7xl') },
+        h2: { fontSize: theme('fontSize.6xl') },
+        h3: { fontSize: theme('fontSize.5xl') },
+        h4: { fontSize: theme('fontSize.3xl') }
       })
     }),
     require('@tailwindcss/typography'),

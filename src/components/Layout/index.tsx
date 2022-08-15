@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react'
 import Header from '$components/Layout/Header'
 import Main from '$components/Layout/Main'
 import Footer from '$components/Layout/Footer'
-import Whatsapp from '$components/Whatsapp';
+import Whatsapp from '$components/Whatsapp'
 
 import styles from './layout.module.css'
 
@@ -34,7 +34,6 @@ const Layout = ({ children }: Props) => (
     {/* <main className={styles.main}>{children}</main> */}
     <Footer />
     <Whatsapp />
-
   </>
 )
 
